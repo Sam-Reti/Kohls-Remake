@@ -1,0 +1,492 @@
+html{
+    font-family:sans-serif ;
+}
+
+body{
+    margin: 0;
+    margin-top: 75px;
+        font-family: 'Montserrat', sans-serif;
+   
+}
+
+.wrapper{
+    height:100vh;
+    width: 100%;
+}
+
+.top-nav{
+    height:75px;
+    width:100%;
+    border-bottom:1px solid #cccccc;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    top:0;
+    background-color: #ffffff;
+    z-index: 99;
+   
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    padding:10px;
+
+}
+
+.logo{
+    height:40px;
+    width: 182px;
+    
+}
+
+
+.searchbar{
+    align-self: center;
+    display: flex;
+    flex: 1;                 
+    max-width: 511px;        
+    min-width: 511px;
+    height: 55%;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.search-icon{
+    padding: 7px;
+}
+
+
+ #search{
+    width: 500px;
+    height: 90%;
+    font-size: 17px;
+    border: none;
+    align-items: center;
+    padding-top: 4px;
+}
+
+#search:focus{
+    width: 500px;
+    height: 90%;
+    font-size: 17px;
+    border: none;
+    align-items: center;
+    padding-top: 4px;
+    outline:none;
+}
+
+
+.space{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 70%;
+    height: 73px;
+    margin-top: 2px;
+   
+}
+
+
+
+.mylist, .cart, .sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+    max-width: 75px;
+    height: 73px;
+    margin-top: 2px;
+    padding: 0 15px 0 15px;
+   
+    
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.sign-in:hover,.mylist:hover,.cart:hover{
+    background-color: #dbd7d2 ;
+    cursor: pointer;
+}
+
+
+.nav-middle{
+    height:42px;
+    width:100%;
+    border-bottom:1px solid #e6e6e6;
+    display: flex;
+    text-align: center;
+}
+
+.hamburger{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 172px;
+    max-width: 172px;
+    height: 60%;
+    padding-left: 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border-right: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+
+.my-store{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 288px;
+    max-width: 288px;
+    height: 60%;
+    padding-left: 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  
+}
+
+.mystore-icon{
+    padding-left: 5px;
+}
+
+.space2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 2px;
+   
+}
+
+.kohls-card, .baby-reg, .coupons {
+    display: flex;
+    align-items: center;
+    gap: 4px;     
+  padding-right: 10px;
+    width: 150px;  
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    padding-left: 20px;
+    
+}
+
+
+.help{
+    display: flex;
+    align-items: center;
+    gap: 4px;    
+    padding-right: 10px;
+    width: 150px;  
+    font-size: 14px;
+    font-weight:600;
+    flex-shrink: 0;
+    justify-content: center;
+    margin-right: -20px;
+    
+}
+
+.nav-bottom{
+    height:45px;
+    width:100%;
+    border-bottom:1px solid #e6e6e6;
+    display: flex;
+    text-align: center;
+    
+  
+}
+
+
+.navlist{
+    width:100%;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -35px;
+   
+   
+}
+
+
+.navlist li {
+    display: flex;
+    align-items: center; 
+    padding: 0 15px;
+    flex: 0 0 auto;
+    height: 100%;
+  }
+
+  .babyimg {
+    height: 16px;         
+    width: auto;
+    margin-left: 4px;     
+    position: relative;  
+              
+  }
+  
+  .sephoraimg {
+    height: 10px;        
+    width: auto;
+    margin-left: 4px;
+    position: relative;
+    top: 0;              
+  }
+
+ul :first-child{
+    color:red;
+}
+
+.dropdown{
+    background-color: #faf8f6;
+    width:120px;
+    flex-shrink: 0;  
+    margin-right: 20px;
+   
+}
+
+.banner{
+    height:90px;
+    width:100%;
+    background-color:#faf8f6 ;
+    padding: 10px;
+    display: flex;
+    
+    overflow-x: hidden;
+}
+
+.innerbanner{
+    min-width:1400px;
+    height: 100%;
+    flex-shrink: 0;
+    
+    display: flex;
+    overflow-x: clip;
+}
+
+
+.banner-text{
+    
+   line-height: 30%;
+   margin-top: 18px;
+   font-size: 15px;
+}
+.spacer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 2px;
+}
+
+.banner-card{
+    border: 2px solid #ec0745;
+    border-radius: 5px;
+    width:210px;
+    height: 75px;
+    align-self: center;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.banner-card1{
+    margin-left:10px;
+}
+.banner-card2{
+    border: 2px solid #24833d;
+    margin-left:10px;
+}
+
+.banner-card3{
+    margin-left:10px;
+}
+
+
+.banner-card2 .big,
+.banner-card2 .little,
+.banner-card2 .code2,
+.banner-card2 .code3 {
+    color: #24833d;
+}
+
+.banner-card3{
+    border: 2px solid #870035;
+
+}
+
+.banner-card3 .big,
+.banner-card3 .description{
+    color: #870035;
+}
+.banner-card3 .description{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    justify-self: center;
+
+}
+.big{
+    padding: 10px 10px 0 10px;
+    font-size: 20px;
+    color: #ec0745;
+}
+
+.little{
+    font-size: 14px;
+    color: #ec0745;
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+.code{
+    font-size: 12px;
+    color: #ec0745;
+   margin-left: 50px;
+   margin-top: 10px;
+}
+.code2{
+    font-size: 12px;
+    color: #ec0745;
+   margin-left: 95px;
+   margin-top: 10px;
+}
+.code3{
+    font-size: 12px;
+    color: #24833d;
+   margin-left: 25px;
+   margin-top: 10px;
+}
+.code4{
+    font-size: 12px;
+    color: #24833d;
+   margin-left: 0px;
+   margin-top: 16px;
+}
+
+.description{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #676460;
+    justify-self: center;
+}
+
+.description a{
+    font-size: 10px;
+    color: #676460;
+    padding-left:5px;
+    
+}
+
+.r{
+    font-size: 6px;
+    vertical-align: super;
+}
+
+
+.dropdown{
+    font-size:12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.red3{
+    color: red;
+    font-weight: 600;
+}
+
+.down{
+    font-size: 20px;
+    padding: 5px;
+}
+.arrow-icon {
+    padding-left: 5px;
+    transform-origin: center;
+    transform: scaleY(2) scaleX(2);
+  }
+
+  .sharkbanner{
+    display: flex;
+    justify-self: center ;
+    padding:20px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    
+  }
+
+  .clockbanner{
+    display: flex;
+    justify-self: center ;
+    padding: 10px 0 20px 0;
+    flex-shrink: 0;
+    flex-shrink: 0;
+  }
+
+  .clockbanner img{
+    border-radius: 5px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+  }
+
+.gridimage1{ grid-area:grid1;}
+.gridimage2{ grid-area:grid2;}
+.gridimage3{ grid-area:grid3;}
+.gridimage4{ grid-area:grid4;}
+.gridimage5{ grid-area:grid5;}
+
+
+  .content{
+    width: 1400px;
+    margin:auto;
+    padding-left:15px;
+    display: grid;
+    grid-gap:0px;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+     
+     
+     'grid1 grid1 grid3 grid5'
+     'grid1 grid1 grid4 grid5'
+     'grid2 grid2 grid4 grid5'
+     
+  }
+
+  a,
+button,
+li,
+.sign-in,
+.mylist,
+.cart,
+.hamburger,
+.my-store,
+.kohls-card,
+.baby-reg,
+.coupons,
+.help,
+.search-icon,
+.dropdown,
+.banner-card,
+.logo,
+img{
+    cursor: pointer;
+}
