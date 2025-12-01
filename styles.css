@@ -710,3 +710,73 @@ img{
     padding: 2px 0;
     font-weight: 800;
 }
+
+.breakline{
+    width: 80%;
+    justify-self: center;
+    border: 1px solid black;
+    
+}
+
+.nav-sephora{
+    height:45px;
+    width:80%;
+    display: flex;
+    text-align: center;  
+    margin-left: 150px;
+
+}
+
+
+.sephoralist{
+    width:100%;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+    text-decoration: underline;
+    justify-content: center;
+    margin: 20px 35px 0 35px;
+   
+}
+
+.sephoralist img{
+    width:350px;
+}
+
+.sephoralist li{
+    margin: 0 35px 0 35px;
+    font-size: 14px;
+    
+}
+
+
+.sephoralist li:hover{
+    margin: 0 35px 0 35px;
+    font-size: 14px;
+    text-decoration: underline 2px;
+}
+
+.holiday-banner{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+}
+.holiday-banner img{
+    width: 1400px;
+    margin-top:10px;
+    
+}
+
+.holiday-banner p{
+    font-size: 11px;
+    margin-bottom: 60px;
+    
+}
+
+.spaceman{
+    height: 40px;
+    width: 100%;
+}
