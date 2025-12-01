@@ -545,6 +545,12 @@ img{
     position: relative;
 }
 
+.cyber1{
+    background-color: #860035;
+}
+
+
+
 .big10{
     font-size: 30px;
     padding-right: 5px;
@@ -572,7 +578,26 @@ img{
     pointer-events: none;
 }
 
+.cyber1::after{
+    content:"";
+    position: absolute;
+    top:-6px;
+    bottom:-6px;
+    right:-6px;
+    left:-6px;
+    border: 3px solid #860035;
+    opacity: 0;
+    transform: scale(0.75);    /* starts smaller, inside the gap */
+    transition: 
+        opacity 0.3s ease,
+        transform 0.3s ease;   /* animate growth */
+    pointer-events: none;
+
+}
+
+
 .listcard:hover::after{
     opacity:1;
     transform: scale(1);  
 }
+
