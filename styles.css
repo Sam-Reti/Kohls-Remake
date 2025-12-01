@@ -509,7 +509,7 @@ img{
     font-weight: 800;
     text-align: center;
     padding-top: 20px;
-    flex-basis: 100;
+    
     
 
 }
@@ -542,7 +542,7 @@ img{
     align-items: center;
     font-size: 20px;
     padding:0 20px 0 20px;
-
+    position: relative;
 }
 
 .big10{
@@ -556,18 +556,23 @@ img{
     font-size: 20px;
 }
 
-.cyber1::after{
+.listcard::after{
     content:"";
     position: absolute;
     top:-6px;
     bottom:-6px;
     right:-6px;
     left:-6px;
-    border: 2px solid red;
+    border: 3px solid red;
     opacity: 0;
-    transition: 0.3s ease;
+    transform: scale(0.75);    /* starts smaller, inside the gap */
+    transition: 
+        opacity 0.3s ease,
+        transform 0.3s ease;   /* animate growth */
+    pointer-events: none;
 }
 
-.cyber1:hover::after{
+.listcard:hover::after{
     opacity:1;
+    transform: scale(1);  
 }
