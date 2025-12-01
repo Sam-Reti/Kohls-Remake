@@ -1,12 +1,14 @@
 html{
     font-family:sans-serif ;
+    overflow-x: hidden;
 }
+
 
 body{
     margin: 0;
     margin-top: 75px;
         font-family: 'Montserrat', sans-serif;
-   
+        overflow-x: hidden;
 }
 
 .wrapper{
@@ -601,3 +603,45 @@ img{
     transform: scale(1);  
 }
 
+.product1{ grid-area:product1;}
+.product2{ grid-area:product2;}
+.product3{ grid-area:product3;}
+.product4{ grid-area:product4;}
+.product5{ grid-area:product5;}
+.product6{ grid-area:product6;}
+.product7{ grid-area:product7;}
+.product8{ grid-area:product8;}
+
+
+.product-grid{
+    width:80%;
+    margin:80px auto 80px auto;
+    border: 1px solid black;
+    display: grid;
+    gap:40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:    
+     'product1 product2 product3 product4'
+     'product5 product6 product7 product8'
+  }
+
+.product-grid img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+.product1, .product2, .product3, .product4, .product4, .product5, .product6, .product7, .product8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:
+  }
+
+.copy > *{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 100%;
+  }   
+  
