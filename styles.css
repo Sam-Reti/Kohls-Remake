@@ -249,7 +249,7 @@ body{
     top: 0;              
   }
 
-ul :first-child{
+.navlist :first-child{
     color:red;
 }
 
@@ -455,10 +455,12 @@ ul :first-child{
 
   .content{
     width: 1400px;
+   
     margin:auto;
-    padding-left:15px;
+    margin-bottom: -450px;
+    padding-left:5px;
     display: grid;
-    grid-gap:0px;
+    grid-gap:20px;
     
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -489,4 +491,83 @@ li,
 .logo,
 img{
     cursor: pointer;
+}
+
+.cyber-banner{
+    background-color: #fdf8ef;
+    width: 1450px;
+    margin:auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.cyber-text{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+    flex-basis: 100;
+    
+
+}
+
+.redcyber{
+    color: #ec0745;
+}
+
+.cybercard{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 0;
+    margin:0;
+}
+
+.listcard{
+    display: flex;
+    height: 70px;
+    width: 260px;
+    background-color: #ec0745;
+    color: white;
+    margin-right: 20px;
+    justify-content: center;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding:0 20px 0 20px;
+
+}
+
+.big10{
+    font-size: 30px;
+    padding-right: 5px;
+
+}
+
+.sub{
+    vertical-align: super;
+    font-size: 20px;
+}
+
+.cyber1::after{
+    content:"";
+    position: absolute;
+    top:-6px;
+    bottom:-6px;
+    right:-6px;
+    left:-6px;
+    border: 2px solid red;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.cyber1:hover::after{
+    opacity:1;
 }
