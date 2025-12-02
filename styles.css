@@ -780,3 +780,134 @@ img{
     height: 40px;
     width: 100%;
 }
+
+
+
+.finder{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 12%;
+    margin-top: 100px;
+
+}
+
+.carousel{
+    width:80%;
+    margin:30px auto 80px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+.carousel1 img {
+    width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+  }
+
+  .carousel1, .carousel2, .carousel3, .carousel4, .carousel5, .carousel6 {
+    display: flex;
+    flex-direction: column;  /* stack image + copy vertically */
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgb(222, 221, 221);
+    margin-right: 25px;
+  }
+
+.copy-carousel > *{
+    display:inline-block;
+    flex-direction: column;
+   
+    
+  }   
+  .copy-carousel{
+    margin-top: 5px;
+  }
+
+
+.new-price-carousel{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(187, 5, 187);
+    margin-left:15px;
+    margin-right: 5px;
+    transform: translateY(-8px);
+    
+}
+
+.dicount-carousel{
+    font-size: 9px;
+    color: rgb(187, 5, 187);
+    padding: 2px 0;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.old-price-carousel{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 0;
+    color: #ec0745;
+    margin-left: 15px;
+}
+
+.old-price-carousel2{
+    font-size: 12px;
+    font-weight: 500;
+    color: #676460;
+}
+
+.product-category-carousel{
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 15px;
+    color: #494948;
+}
+
+.product-name-carousel{
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    color: #494948;
+
+}
+
+.carousel :last-child{
+    margin-right: 0;
+}
+
+.footer{
+    background-color: rgb(225 212 195);
+    height:500px;
+    width: 100%;
+    padding-top:50px;
+    justify-content: center;
+    display: flex;
+    flex-basis: 100%;
+
+}
+
+.footer ul{
+    list-style: none;
+    font-size: 12px;
+    
+}
+
+.footer li{
+    margin-bottom: 20px;
+}
+
+.footer li:first-child{
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.shop-kohls,.footer-list,.my-account,.kohls-rewards,.about-kohls{
+    width: 200px;
+    justify-content: center;
+}
